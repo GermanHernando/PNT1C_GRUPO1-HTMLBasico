@@ -1,0 +1,64 @@
+<html>
+<head>
+    <meta charset="utf-8"> <!-- Es para agregar caracteres especiales-->
+    <title>BodegonGuardiaImperial</title>
+    <meta name="viewport" content="width=device-width, initial-scale=5000.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href='fuentes.css' link rel='stylesheet'>
+    </head>
+
+    <body>
+    <section id="banner">
+        <p>
+           <img src="images/encabezado.jpeg" alt="encabezado">
+        </img>
+        </p>
+        </div>
+  </section>
+  
+  <section id="navbar">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="diseño.html#alPaso">Al Paso</a></li>
+          <li><a href="diseño.html#platos">Al Plato</a></li>
+           <li><a href="diseño.html#postres">Postres</a></li>
+          <li><a href="diseño.html#bebidas">Bebidas</a></li>
+          <li><a href="diseño.html#bebidasAlcoholicas">Bebidas Alcoholícas</a></li>
+          <li> <a href="reserva.html">Reserva</a></li>
+        </ul>
+      </div>
+    </nav> 
+   </section>
+
+  
+<form id="formulario"  target="_self" method="dialog" onsubmit="enviarDatos();">
+    <label for="nomCompleto"> Nombre Completo:</label><br>
+    <input type="text" id="nomCompleto" name="nomCompleto" placeholder="Nombre Apellido"><br><br>
+    <label for="dni">Dni:</label><br>
+    <input type="text" id="dni" name="dni" placeholder="11.234.567"><br><br><!--maxlength="8"-->
+    <label for="tel">Teléfono:</label><br>
+    <input type="tel" id="cel" name="cel" placeholder="11-3456-7890" ><br><br><!--maxlength="10"-->
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email" placeholder="ejemplo@gmail.com"><br><br><!-- type="email"-->
+    <label for="cantPersonas">Cantidad de Personas:</label><br>
+    <input type="number" id="cantPersonas" name="cantPersonas" placeholder="0"><br><br>
+    <button type="submit" id = "enviar" >Enviar</button> <!--onclick="enviarDatos();"-->
+  </form>
+    
+<footer class="centrarEnColumnas">
+    <div id="footer">
+    <ul class="list-inline">
+        <li class="btn btn-primary"><a href="https://www.youtube.com/?gl=AR&hl=es-419"><i class="fa fa-youtube">Youtube</i></a></li>
+        <li class="btn btn-primary"><a href="https://www.facebook.com/"><i class="fa fa-facebook">Facebook</i></a></li>
+        <li class="btn btn-primary"><a href="https://twitter.com/?lang=en"><i class="fa fa-twitter">Twitter</i></a></li>
+        <li class="btn btn-primary"><a href="https://www.instagram.com/"><i class="fa fa-instagram">Instagram</i></a></li>
+    </ul>
+    </div>   
+    </footer> 
+
+    <script src="./codigo.js"></script>
+    </body>
+    </html>
